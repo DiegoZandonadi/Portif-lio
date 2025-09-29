@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiMail, FiArrowRight, FiZap, FiCheck, FiX } from 'react-icons/fi'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import profileImage from './assets/SAN_6567.jpg'
 import './App.css'
 
 const fadeUp = {
@@ -150,7 +151,7 @@ function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <img src="/src/assets/SAN_6567.jpg" alt="Diego Zandonadi" />
+              <img src={profileImage} alt="Diego Zandonadi" />
             </motion.div>
           </div>
         </div>
