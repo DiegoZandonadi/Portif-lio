@@ -58,7 +58,7 @@ const projects = [
     description: "Landing page responsiva com SEO otimizado e performance de alta velocidade.",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    liveUrl: "https://landing-exemplo.com",
+    liveUrl: "https://landing-page-typescript.vercel.app/",
     githubUrl: "https://github.com/Diego Zandonadi/landing-page"
   },
   {
