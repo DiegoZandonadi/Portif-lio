@@ -3,6 +3,7 @@ import { FiGithub, FiLinkedin, FiMail, FiArrowRight, FiZap, FiCheck, FiX } from 
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import profileImage from './assets/SAN_6567.jpg'
+import landingImage from './assets/Captura de tela 2025-09-29 202033.png'
 import './App.css'
 
 const fadeUp = {
@@ -56,10 +57,10 @@ const projects = [
     id: 5,
     title: "Landing Page Next.js",
     description: "Landing page responsiva com SEO otimizado e performance de alta velocidade.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop",
+    image: landingImage,
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "https://landing-page-typescript.vercel.app/",
-    githubUrl: "https://github.com/Diego Zandonadi/landing-page"
+    githubUrl: "https://github.com/DiegoZandonadi/landing-page-typescript"
   },
   {
     id: 6,
