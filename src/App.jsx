@@ -4,6 +4,7 @@ import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import profileImage from './assets/SAN_6567.jpg'
 import landingImage from './assets/Captura de tela 2025-09-29 202033.png'
+import dashboardImage from './assets/dashboard-analytics.png'
 import './App.css'
 
 const fadeUp = {
@@ -39,9 +40,9 @@ const projects = [
     id: 3,
     title: "Dashboard Analytics",
     description: "Dashboard interativo para análise de dados com gráficos em tempo real e relatórios personalizados.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop",
-    technologies: ["React", "D3.js", "Python", "PostgreSQL"],
-    liveUrl: "https://dashboard-exemplo.com",
+    image: dashboardImage,
+    technologies: ["React", "TypeScript", "WebSocket", "Node.js"],
+    liveUrl: "https://dashboard-chi-inky.vercel.app/",
     githubUrl: "https://github.com/Diego Zandonadi/analytics-dashboard"
   },
   {
