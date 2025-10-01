@@ -4,6 +4,7 @@ import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import profileImage from './assets/SAN_6567.jpg'
 import landingImage from './assets/Captura de tela 2025-09-29 202033.png'
+import chatImage from './assets/sistema-chat.png'
 import './App.css'
 
 const fadeUp = {
@@ -66,8 +67,8 @@ const projects = [
     id: 6,
     title: "Sistema de Chat",
     description: "Chat em tempo real com WebSockets, salas privadas e sistema de mensagens.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop",
-    technologies: ["Socket.io", "React", "Express", "Redis"],
+    image: chatImage,
+    technologies: ["Socket.io", "React", "Express", "Node.js"],
     liveUrl: "https://chat-exemplo.com",
     githubUrl: "https://github.com/Diego Zandonadi/chat-system"
   }
