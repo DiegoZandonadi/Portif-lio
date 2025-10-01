@@ -4,7 +4,6 @@ import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import profileImage from './assets/SAN_6567.jpg'
 import landingImage from './assets/Captura de tela 2025-09-29 202033.png'
-import chatImage from './assets/sistema-chat.png'
 import './App.css'
 
 const fadeUp = {
@@ -62,15 +61,6 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "https://landing-page-typescript.vercel.app/",
     githubUrl: "https://github.com/DiegoZandonadi/landing-page-typescript"
-  },
-  {
-    id: 6,
-    title: "Sistema de Chat",
-    description: "Chat em tempo real com WebSockets, salas privadas e sistema de mensagens.",
-    image: chatImage,
-    technologies: ["Socket.io", "React", "Express", "Node.js"],
-    liveUrl: "https://chat-exemplo.com",
-    githubUrl: "https://github.com/Diego Zandonadi/chat-system"
   }
 ]
 
